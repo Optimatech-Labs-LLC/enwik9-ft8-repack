@@ -1,0 +1,49 @@
+{
+  "version": "0.1.0",
+  "benchmark": "Large Text Compression Benchmark",
+  "benchmark_url": "https://mattmahoney.net/dc/text.html",
+  "corpus": {
+    "name": "enwik9",
+    "bytes": 1000000000,
+    "sha256": "159b85351e5f76e60cbe32e04c677847a9ecba3adc79addab6f4c6c7aa3744bc"
+  },
+  "upstream": "fx2-cmix-T-ft8 v1.0",
+  "source_commit": "6799899710f83c6d9c62fdb742ddbf489443671f",
+  "scored_files": {
+    "wiki.ftw": 96916621,
+    "decoder.zip": 17336
+  },
+  "total_bytes": 96933957,
+  "upstream_archive_bytes": 96945005,
+  "net_bytes_saved": 11048,
+  "matched_upstream_archive_sha256": "2b3892ca5a43e1b25bcbbbb5bc79f95cc09331953b324333500e61a3b45eba5b",
+  "upstream_archive_byte_comparison": true,
+  "weight_repack_recipe": 0,
+  "quick_expansion_test": {
+    "machine": "NVIDIA DGX Spark",
+    "architecture": "aarch64",
+    "seconds_including_compilation": 0.765
+  },
+  "full_corpus_restore_completed_by_us": false,
+  "our_full_restore_seconds": null,
+  "our_raw_enwik9_end_to_end_encode_seconds": null,
+  "partial_decode": {
+    "machine": {
+      "cpu": "Intel Xeon Gold 6548N",
+      "vcpus": 32,
+      "installed_ram_gib": 256,
+      "os": "Linux x86-64"
+    },
+    "progress_percent": 0.45,
+    "matched_transformed_prefix_bytes": 2686976,
+    "matched_transformed_prefix_sha256": "5d13191484ede73d0e06a6ab4b322419812af3cae7051abf0dad45bb53c3a930",
+    "finished_xml_bytes_verified": 0
+  },
+  "upstream_report": {
+    "url": "https://github.com/mejutoco/fx2-cmix-T-ft8#decompress",
+    "machine": "AMD Ryzen 9 5900X",
+    "upstream_compress_cpu_seconds": 111424,
+    "upstream_decompress_cpu_seconds": 130005
+  },
+  "enwik8_bytes": null
+}
