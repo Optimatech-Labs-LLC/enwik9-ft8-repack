@@ -1,0 +1,7 @@
+# Attribution
+
+The benchmark data is enwik9, the first 1,000,000,000 bytes of the March 3, 2006 English Wikipedia XML dump. The text and revision metadata are the work of Wikipedia contributors. The archive restores those bytes as published, including article titles, revision IDs and contributor records. Article histories are available through the page history on English Wikipedia. Mahoney provides the original XML in a freely downloadable ZIP. [Original dataset and download](https://mattmahoney.net/dc/textdata.html) · [English Wikipedia](https://en.wikipedia.org/)
+
+The original Wikipedia text was published under the GNU Free Documentation License. Individual quotations and third-party material may carry their original terms. [Corpus license](https://www.gnu.org/licenses/old-licenses/fdl-1.2.html) · [Wikipedia's licensing history](https://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License)
+
+Jesús Mejuto González built fx2-cmix-T-ft8 from Vladimir Ivanov’s fx2-cmix-transformer. The dictionary, neural predictor, Wikipedia bitstream and page ordering are upstream work. OptimaTech Labs recoded the original 15-value weights and the executable’s literal and copy decisions. The executable uses the UPX/UCL NRV2B format. This source kit implements its bitstream directly. [ft8 and source](https://github.com/mejutoco/fx2-cmix-T-ft8/releases/tag/v1.0) · [UCL format reader](https://github.com/upx/upx-vendor-ucl/blob/a60611d342b0b7d2924c495ebaa1910e4c3c3fe6/src/n2b_d.c) · [GPLv3](LICENSE)
